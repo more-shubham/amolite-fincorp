@@ -1,0 +1,18 @@
+section {
+  height: 100vh;
+}
+
+.py-6 {
+  padding: 18px 0;
+}
+
+.center{
+  display: flex;
+   justify-items: center;
+}
+
+.contact-icon{
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+}

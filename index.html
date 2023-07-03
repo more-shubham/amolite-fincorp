@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- 
+        Header
+     -->
+    <header class="bg-body-tertiary position-fixed w-100" >
+        <nav class="navbar navbar-expand-lg container">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 
+        Hero Section
+     -->
+    <section>
+        <div class="row container h-100 mx-auto">
+            <div class="col-12 col-lg-6 py-6 d-flex align-items-start flex-column justify-content-center">
+                <h1>
+                    Where Your <br> Financial Dreams <br> Become Reality
+                </h1>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor consequatur velit eum. Quas adipisci iste ullam iure voluptatum nulla temporibus eum nobis sunt aliquid cum molestias, eos sint voluptates tempore!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+        About Us
+     -->
+    <section id="about" >
+        <div class="row container h-100 mx-auto">
+            <div class="col-lg-6 col-12"></div>
+            <div class="col-lg-6 col-12 py-6 d-flex align-items-start flex-column justify-content-center">
+                <span>About US</span>
+                <h1>
+                    Where Your <br> Financial Dreams <br> Become Reality
+                </h1>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor consequatur velit eum. Quas adipisci iste ullam iure voluptatum nulla temporibus eum nobis sunt aliquid cum molestias, eos sint voluptates tempore!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+        Services
+     -->
+    <section id="services" class=" bg-body-tertiary">
+        <div class="d-lg-none d-flex py-6 h-100 flex-column justify-content-center">
+            <!-- Mobile UI ( before lg ) -->
+            <h1 class="text-center" >Things to know about our costs</h1>
+            <p class="text-center">Transparent and fair costs, with no hidden fees</p>
+        </div>
+        <div class="d-lg-flex d-none py-6 h-100 flex-column justify-content-center">
+            <!-- Desktop UI ( after lg ) -->
+            <h1 class="text-center" >Things to know about our costs</h1>
+            <p class="text-center">Transparent and fair costs, with no hidden fees</p>
+        </div>
+    </section> 
+
+    <!-- 
+        Our Teams
+     -->
+    <section>
+
+    </section>
+
+    <!-- 
+        Contact US 
+    -->
+    <section id="contact">
+
+    </section>
+
+    <section>
+        <div class="py-6 h-100 d-flex justify-content-center align-items-center flex-column">
+            <h1>Need more help?</h1>
+            <p>Feel free to ask us about it!</p>
+            <div class="container row">
+                <div class="col-lg-4 col-12 p-5 bg-body-secondary">
+                    <div class="d-flex justify-content-center gap-2">
+                        <div class="contact-icon"></div>
+                        <h3 class="">Live help</h3>
+                    </div>
+                    <p class="text-center pt-2" >
+                        Get an answer on the spot. We`re online <br>
+                        8am - 7pm Mon to Fri and <br>
+                        9am - 3pm Mon to Sat and Sun
+                    </p>
+                </div>
+                <div class="col-lg-4 col-12 p-5 bg-body-tertiary">
+                    <div class="d-flex justify-content-center gap-2">
+                        <div class="contact-icon"></div>
+                        <h3 class="">Call us</h3>
+                    </div>
+                    <p class="text-center pt-2" >
+                        any time during houre <br>
+                        <span class="text-warning" >(123) 456-78-90</span> <br>
+                        <span class="text-warning" >(123) 456-78-90</span>
+                    </p>
+                </div>
+                <div class="col-lg-4 col-12 p-5 bg-body-secondary">
+                    <div class="d-flex justify-content-center gap-2">
+                        <div class="contact-icon"></div>
+                        <h3 class="">See our FAQs</h3>
+                    </div>
+                    <p class="text-center pt-2" >
+                        See answers to questions on how to <br>
+                        use our services
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

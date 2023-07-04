@@ -17,3 +17,26 @@ section {
   width: 40px;
   border: 1px solid black;
 }
+
+.hero{
+  background-image: url('./af-banner-desktop.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+.about-us-image{
+  min-height: 300px;
+  min-width: 300px;
+  background-image: url('./about-us.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+@media (max-width: 992px) {
+  .hero{
+    background-image: url('./af-banner-mobile.jpg');
+    color: white;
+  } 
+}

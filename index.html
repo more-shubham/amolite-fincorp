@@ -8,13 +8,15 @@
     <link rel="stylesheet" href="./style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
 </head>
 
 <body>
     <!-- 
         Header
      -->
-    <header class="bg-body-tertiary position-fixed w-100" >
+    <header class="bg-body-tertiary position-fixed w-100">
         <nav class="navbar navbar-expand-lg container">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Navbar</a>
@@ -46,14 +48,16 @@
     <!-- 
         Hero Section
      -->
-    <section>
+    <section class="hero" >
         <div class="row container h-100 mx-auto">
             <div class="col-12 col-lg-6 py-6 d-flex align-items-start flex-column justify-content-center">
                 <h1>
                     Where Your <br> Financial Dreams <br> Become Reality
                 </h1>
                 <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor consequatur velit eum. Quas adipisci iste ullam iure voluptatum nulla temporibus eum nobis sunt aliquid cum molestias, eos sint voluptates tempore!
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor consequatur velit eum. Quas adipisci
+                    iste ullam iure voluptatum nulla temporibus eum nobis sunt aliquid cum molestias, eos sint
+                    voluptates tempore!
                 </p>
             </div>
         </div>
@@ -62,16 +66,18 @@
     <!-- 
         About Us
      -->
-    <section id="about" >
+    <section id="about" class="bg-body-tertiary py-5">
         <div class="row container h-100 mx-auto">
-            <div class="col-lg-6 col-12"></div>
+            <div class="col-lg-6 col-12 about-us-image"></div>
             <div class="col-lg-6 col-12 py-6 d-flex align-items-start flex-column justify-content-center">
                 <span>About US</span>
                 <h1>
                     Where Your <br> Financial Dreams <br> Become Reality
                 </h1>
                 <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor consequatur velit eum. Quas adipisci iste ullam iure voluptatum nulla temporibus eum nobis sunt aliquid cum molestias, eos sint voluptates tempore!
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor consequatur velit eum. Quas adipisci
+                    iste ullam iure voluptatum nulla temporibus eum nobis sunt aliquid cum molestias, eos sint
+                    voluptates tempore!
                 </p>
             </div>
         </div>
@@ -80,24 +86,17 @@
     <!-- 
         Services
      -->
-    <section id="services" class=" bg-body-tertiary">
+    <section id="services" class="">
         <div class="d-lg-none d-flex py-6 h-100 flex-column justify-content-center">
             <!-- Mobile UI ( before lg ) -->
-            <h1 class="text-center" >Things to know about our costs</h1>
+            <h1 class="text-center">Things to know about our costs</h1>
             <p class="text-center">Transparent and fair costs, with no hidden fees</p>
         </div>
         <div class="d-lg-flex d-none py-6 h-100 flex-column justify-content-center">
             <!-- Desktop UI ( after lg ) -->
-            <h1 class="text-center" >Things to know about our costs</h1>
+            <h1 class="text-center">Things to know about our costs</h1>
             <p class="text-center">Transparent and fair costs, with no hidden fees</p>
         </div>
-    </section> 
-
-    <!-- 
-        Our Teams
-     -->
-    <section>
-
     </section>
 
     <!-- 
@@ -113,33 +112,39 @@
             <p>Feel free to ask us about it!</p>
             <div class="container row">
                 <div class="col-lg-4 col-12 p-5 bg-body-secondary">
-                    <div class="d-flex justify-content-center gap-2">
-                        <div class="contact-icon"></div>
+                    <div class="d-flex justify-content-center">
+                        <h2 class="">
+                            <iconify-icon icon="fluent-emoji:handshake"></iconify-icon>
+                        </h2>
                         <h3 class="">Live help</h3>
                     </div>
-                    <p class="text-center pt-2" >
+                    <p class="text-center pt-0">
                         Get an answer on the spot. We`re online <br>
                         8am - 7pm Mon to Fri and <br>
                         9am - 3pm Mon to Sat and Sun
                     </p>
                 </div>
                 <div class="col-lg-4 col-12 p-5 bg-body-tertiary">
-                    <div class="d-flex justify-content-center gap-2">
-                        <div class="contact-icon"></div>
-                        <h3 class="">Call us</h3>
+                    <div class="d-flex justify-content-center">
+                        <h2><iconify-icon icon="fluent-emoji:call-me-hand"></iconify-icon></h2>
+                        <h3 class="">
+                            Call us
+                        </h3>
                     </div>
-                    <p class="text-center pt-2" >
+                    <p class="text-center pt-0">
                         any time during houre <br>
-                        <span class="text-warning" >(123) 456-78-90</span> <br>
-                        <span class="text-warning" >(123) 456-78-90</span>
+                        <span class="text-warning">(123) 456-78-90</span> <br>
+                        <span class="text-warning">(123) 456-78-90</span>
                     </p>
                 </div>
                 <div class="col-lg-4 col-12 p-5 bg-body-secondary">
-                    <div class="d-flex justify-content-center gap-2">
-                        <div class="contact-icon"></div>
+                    <div class="d-flex justify-content-center">
+                        <h2 class="">
+                            <iconify-icon icon="flat-color-icons:faq"></iconify-icon>
+                        </h2>
                         <h3 class="">See our FAQs</h3>
                     </div>
-                    <p class="text-center pt-2" >
+                    <p class="text-center pt-0">
                         See answers to questions on how to <br>
                         use our services
                     </p>
@@ -148,6 +153,33 @@
         </div>
     </section>
 
+    <footer class="bg-dark text-white-50">
+        <div class="container mx-auto d-flex py-2">
+            <div class="">
+                <span class="text-white">AncoraThemes</span> © 2017 All Rights Reserved Terms of Use and Privacy
+            </div>
+            <div class="ms-auto d-flex gap-3">
+                <div class="border user-select-none"
+                    style="height: 35px; width: 35px; border-radius: 100%; display: flex; justify-content: center; align-items: center;">
+                    <iconify-icon icon="line-md:facebook"></iconify-icon>
+                </div>
+                <div class="border user-select-none"
+                    style="height: 35px; width: 35px; border-radius: 100%; display: flex; justify-content: center; align-items: center;">
+                    <iconify-icon icon="line-md:twitter"></iconify-icon>
+                </div>
+                <div class="border user-select-none"
+                    style="height: 35px; width: 35px; border-radius: 100%; display: flex; justify-content: center; align-items: center;">
+                    <iconify-icon icon="ei:sc-google-plus"></iconify-icon>
+                </div>
+                <div class="border user-select-none"
+                    style="height: 35px; width: 35px; border-radius: 100%; display: flex; justify-content: center; align-items: center;">
+                    <iconify-icon icon="line-md:linkedin"></iconify-icon>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>

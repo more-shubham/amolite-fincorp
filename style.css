@@ -1,5 +1,6 @@
 section {
   height: 100vh;
+  min-width: fit-content;
 }
 
 .logo{
@@ -25,6 +26,10 @@ section {
   display: flex;
    justify-items: center;
   
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 .contact-icon{

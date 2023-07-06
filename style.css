@@ -13,6 +13,10 @@ section {
   
 }
 
+.slick-arrow{
+  display: none !important;
+}
+
 .text-justify {
   text-align: justify;
 }

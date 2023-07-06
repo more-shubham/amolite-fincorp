@@ -43,9 +43,9 @@ section {
   background-size: contain;
 }
 
-.slick-slide [data-slick-index=1] {
-  background-color: white;
-}
+/* .slick-center > div > div {
+  background-color: white !important;
+} */
 
 @media (max-width: 992px) {
   .hero{

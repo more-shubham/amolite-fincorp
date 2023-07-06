@@ -3,7 +3,18 @@ $(document).ready(function(){
         slidesToShow: 3,
         dots: true,
         slidesToScroll: 1,
-        // autoplay: true,
-        // autoplaySpeed: 2000,
+        pauseOnHover: true,
+        pauseOnDotsHover: true,
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ],
+        centerMode: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
     })
 })

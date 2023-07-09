@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Spirax&display=swap');
+
+* {
+  font-family: 'Outfit', sans-serif;
+}
+
+h1, h2{
+  font-family: 'Spirax', cursive;
+}
+
+
 section {
   height: 100vh;
   min-width: fit-content;
@@ -5,6 +16,11 @@ section {
 
 .py-6 {
   padding: 18px 0;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit !important;
 }
 
 .center{
@@ -43,6 +59,10 @@ section {
   background-size: contain;
 }
 
+.logo {
+  height: 4rem;
+}
+
 /* .slick-center > div > div {
   background-color: white !important;
 } */
@@ -52,4 +72,7 @@ section {
     background-image: url('./af-banner-mobile.jpg');
     color: white;
   } 
+  .logo {
+    height: 3rem;
+  }
 }

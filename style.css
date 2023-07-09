@@ -67,6 +67,12 @@ a {
   background-color: white !important;
 } */
 
+.nav-item > .active {
+  background-color: orange;
+  color: white;
+  border-radius: 12px;
+}
+
 @media (max-width: 992px) {
   .hero{
     background-image: url('./af-banner-mobile.jpg');

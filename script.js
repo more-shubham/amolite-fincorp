@@ -29,9 +29,9 @@ $(document).ready(function () {
   $(".owl-carousel").owlCarousel({
     loop: true,
     margin: 10,
-    autoplay:true,
-    autoplayTimeout:5000,
-    autoplayHoverPause:true,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    autoplayHoverPause: true,
     // nav: true,
     responsive: {
       0: {
@@ -42,4 +42,15 @@ $(document).ready(function () {
       }
     }
   });
+
+
+  $('body').scrollspy({ target: '#navbar' });
+
+
+  // $('#navbar').on('activate.bs.scrollspy', function () {
+  //   var activeSection = $('#navbar .nav-item').attr('href');
+  //   $('#navbar .nav-item').removeClass('custom-active');
+  //   $(activeSection).addClass('custom-active');
+  // });
+
 });

@@ -81,4 +81,7 @@ a {
   .logo {
     height: 3rem;
   }
+  .owl-carousel{
+    max-width: 95vw;
+  }
 }

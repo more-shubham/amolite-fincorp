@@ -101,7 +101,7 @@ a {
 }
 
 #services {
-  padding: 180px 0px 40px 0x;
+  padding: 180px 0px 80px 0px;
 }
 
 @media (max-width: 992px) {
@@ -110,7 +110,7 @@ a {
     color: white;
   } 
   #services {
-    padding: 100px 0px 40px 0x;
+    padding: 100px 0px 40px 0px;
   }
   .pt-logo{
     padding-top: 50px;

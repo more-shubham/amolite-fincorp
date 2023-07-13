@@ -100,11 +100,18 @@ a {
   border-radius: 12px;
 }
 
+#services {
+  padding: 180px 0px 40px 0x;
+}
+
 @media (max-width: 992px) {
   .hero{
     background-image: url('./af-banner-mobile.jpg');
     color: white;
   } 
+  #services {
+    padding: 100px 0px 40px 0x;
+  }
   .pt-logo{
     padding-top: 50px;
   }

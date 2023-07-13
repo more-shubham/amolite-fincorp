@@ -86,6 +86,10 @@ a {
   background-color: white !important;
 } */
 
+.pt-logo{
+  padding-top: 100px;
+}
+
 .nav-item > .active {
   background-color: rgba(255, 166, 0, 0.5);
   /* color: white !important; */

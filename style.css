@@ -72,7 +72,13 @@ a {
 }
 
 .logo {
-  height: 4rem;
+  position: absolute;
+  top: 0px;
+  background-color: white;
+  border: 1px solid orange;
+  padding: 10px 10px 10px 10px;
+  border-radius: 0px 0px 10px 10px;
+  height: 9rem;
 }
 
 /* .slick-center > div > div {
@@ -91,7 +97,7 @@ a {
     color: white;
   } 
   .logo {
-    height: 3rem;
+    height: 8rem;
   }
   .owl-carousel{
     max-width: 95vw;

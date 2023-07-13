@@ -47,6 +47,14 @@ a {
   border: 1px solid black;
 }
 
+.owl-carousel .owl-item {
+  height: auto;
+}
+
+.owl-carousel .item {
+  height: 100%;
+}
+
 .hero{
   background-image: url('./af-banner-desktop.jpg');
   background-repeat: no-repeat;
